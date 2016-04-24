@@ -1,0 +1,26 @@
+{
+	"FileVersion" : 3,
+	"FriendlyName" : "Texture Architect",
+	"Version" : 1,
+	"VersionName" : "1.0.0",
+	"CreatedBy" : "Ali Akbar",
+	"CreatedByURL" : "http://coderespawn.com",
+	"EngineVersion" : "0.0.1",
+	"Description" : "Procedural texture generator for UE4",
+	"Category" : "Procedural",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "TextureArchitectRuntime",
+			"Type" : "Runtime"
+		},
+		{
+			"Name" : "TextureArchitectEditor",
+			"Type" : "Editor"
+		}
+	],
+
+	"CanContainContent" : true
+}
